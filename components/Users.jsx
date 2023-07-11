@@ -15,7 +15,7 @@ const Users = ({ users }) => {
 				onClick={() => {router.push(`/users/${user.id}`)}}>
 					<div>
 						<h5>{user.id} {user.first_name} {user.last_name}</h5>
-						<p>user.email</p>
+						<p>{user.email}</p>
 					</div>
 					<img 
 					src={user.avatar} 
